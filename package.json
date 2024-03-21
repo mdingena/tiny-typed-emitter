@@ -1,6 +1,6 @@
 {
   "name": "@mdingena/tiny-typed-emitter",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "private": false,
   "description": "Fully type-checked EventEmitter",
   "repository": "https://github.com/mdingena/tiny-typed-emitter.git",
