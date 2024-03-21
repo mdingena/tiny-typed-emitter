@@ -64,7 +64,7 @@ export class TypedEmitter<L extends ListenerSignature<L> = DefaultListener> exte
   }
 
   override emit<U extends Extract<keyof L, EventName>>(event: U, ...args: Parameters<L[U]>): boolean {
-    return super.emit(event, args);
+    return super.emit(event, ...args);
   }
 
   override eventNames<U extends Extract<keyof L, EventName>>(): U[] {
